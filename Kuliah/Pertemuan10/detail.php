@@ -16,9 +16,18 @@ $mahasiswa = query("SELECT * FROM mahasiswa WHERE id = $id");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail Mahasiswa</title>
 </head>
+<style>
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    text-align: center;
+  }
+</style>
 
 <body>
-  <h3>Detail Mahasiswa</h3>
+  <h1>Detail Mahasiswa</h1>
   <ul>
     <li><img src="img/<?= $mahasiswa['gambar']; ?>" alt=""></li>
     <li>NRP : <?= $mahasiswa['nrp']; ?></li>

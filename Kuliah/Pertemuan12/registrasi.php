@@ -53,7 +53,7 @@ if (isset($_POST['registrasi'])) {
       </li>
     </ul>
   </form>
-
+  <a href="login.php"><button>Kembali</button></a>
 </body>
 
 </html>

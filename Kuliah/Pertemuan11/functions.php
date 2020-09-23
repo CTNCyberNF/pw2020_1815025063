@@ -10,7 +10,7 @@ function query($query)
   $conn = koneksi();
   $result = mysqli_query($conn, $query);
 
-  //jika hasilnya hanya 1 data
+  //jika hasilnya hanya 1 data tidak usah di masukan dalam array
   if (mysqli_num_rows($result) == 1) {
     return mysqli_fetch_assoc($result);
   }

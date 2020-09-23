@@ -11,7 +11,7 @@ $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
 //$row = mysqli_fetch_row($result); //array numerick yang tiap key nya angka
 //$row = mysqli_fetch_assoc($result); // array assosiarif yang tiap key nya mengambil dari nama aslinya atribut
 //$row = mysqli_fetch_array($result); // Keduanya
-//var_dump($row) //melihat isi dari variable
+//var_dump($row); //melihat isi dari variable
 
 
 $rows = [];
